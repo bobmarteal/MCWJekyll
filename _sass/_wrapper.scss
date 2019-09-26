@@ -3,6 +3,8 @@
     Descr: Styles wrapper for contents
 */
 .wrapper{
-    max-width: var(--max-width);
+    max-width: var(--wrapper-max-width);
     margin: 0 auto;
+    background: var(--white);
+    border-radius: var(--border-radius);
 }

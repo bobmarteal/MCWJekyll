@@ -4,7 +4,11 @@
 */
 
 :root{
-    --max-width: 1440px;
+    --wrapper-max-width: 1440px;
+    --main-max-width: 954px;
+
+    --border-radius: 4px;
+
 
     //colors
     --teal: #3A9595;
@@ -12,4 +16,139 @@
     --blue: #59bbe4;
     --green: #245e5e;
 
+    --light-gray: #f8f8f8;
+    --white: #fff;
+
+    //fonts
+    --serif: 'museo-slab', serif;
+    --sans: 'proxima-nova', sans-serif;
+
+    //font-sizes
+    --base-font-size: 28px;
+    --base-line-height: 1.4;
+
+    --main-nav-size: calc(1.5 * (var(--base-font-size)));
+
+    //font-weights
+    --medium-weight: 600;
 }
+
+/*
+
+Proxima Nova Extrabold
+
+font-family: proxima-nova, sans-serif;
+
+font-weight: 800;
+
+font-style: normal;
+
+
+Proxima Nova Regular
+
+font-family: proxima-nova, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Proxima Nova Italic
+
+font-family: proxima-nova, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Proxima Nova Medium
+
+font-family: proxima-nova, sans-serif;
+
+font-weight: 500;
+
+font-style: normal;
+
+
+Proxima Nova Medium Italic
+
+font-family: proxima-nova, sans-serif;
+
+font-weight: 500;
+
+font-style: italic;
+
+
+Proxima Nova Condensed Bold
+
+font-family: proxima-nova-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Proxima Nova Condensed Bold Italic
+
+font-family: proxima-nova-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Proxima Nova Condensed Regular
+
+font-family: proxima-nova-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Proxima Nova Condensed Italic
+
+font-family: proxima-nova-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Proxima Nova Extra Condensed Bold Italic
+
+font-family: proxima-nova-extra-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Proxima Nova Extra Condensed Bold
+
+font-family: proxima-nova-extra-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Proxima Nova Extra Condensed Italic
+
+font-family: proxima-nova-extra-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Proxima Nova Extra Condensed Regular
+
+font-family: proxima-nova-extra-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+*/

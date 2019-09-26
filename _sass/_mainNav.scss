@@ -2,3 +2,14 @@
     Name: _mainNav
     Descr: Styles responsive and full version of main navigaiton
 */
+.mainNav{
+    a{
+        font-weight: var(--medium-weight);
+        font-family: var(--serif);
+        font-size: var(--main-nav-size);
+        font-weight: var(--light-weight);
+        color: var(--green);
+        margin: 0 .5rem;
+        text-decoration-color: var(--light-gray);
+    }
+}
