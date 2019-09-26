@@ -1,0 +1,10 @@
+plugins:
+  - jekyll-seo-tag
+
+sass:
+    sass_dir: _sass
+
+collections:
+  bikes:
+    output: true
+    permalink: /bikes/:path/
