@@ -2,3 +2,7 @@
     Name: _wrapper
     Descr: Styles wrapper for contents
 */
+.wrapper{
+    max-width: var(--max-width);
+    margin: 0 auto;
+}

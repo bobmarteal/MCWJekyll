@@ -2,8 +2,18 @@
     Name: _header
     Descr: Styles the main page header
 */
+
 header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image:
+        url(/images/teal-triangle.svg),
+        url(/images/yellow-triangle.svg),
+        url(/images/blue-thing.svg);
+    background-position: 
+        top left,
+        top right,
+        top left;
+    background-repeat: no-repeat;
 }

@@ -9,9 +9,15 @@
 </head>
 
 <body>
-    <h1 class="siteTitle">Marteal Cycle Works</h1>
-    {% include navigation.html %}
-    {{ content }}
+    <div class="wrapper">
+        <header>
+        <h1 class="siteTitle">Marteal Cycle Works</h1>
+        {% include navigation.html %}
+        </header>
+        <main>
+            {{ content }}
+        </main>
+    </div>
 </body>
 
 </html>
