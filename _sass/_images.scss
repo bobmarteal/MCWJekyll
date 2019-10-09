@@ -6,12 +6,8 @@
     -shows
 */
 
-.hero{
-    width: 148%;
-    margin-left: -24%;
-    display: grid;
-}
-
 img{
     max-width: 100%;
+    border-radius: var(--border-radius);
+    @include boxShadow();
 }
