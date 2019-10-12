@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<div class="hero">
+    <img src="{{ page.hero.imagepath }}" alt="{{ page.hero.imagealt }}">
+    <h1>
+        <span>{{ page.hero.h1span}}</span>{{ page.hero.h1 }}
+    </h1>
+</div>
+
+<h1 class="title">{{ page.title }}</h1>
+
+{{ content }}
+
+<h2>Gallery</h2>
+<div class="gallery">
+    {% for item in page.gallery %}
+        <figure class="animated">
+            <img src="{{ item.imagepath }}" alt="{{ item.imagealt }}" class="gallery__image">
+            <figcaption class="gallery__caption">{{item.imagecaption}}</figcaption>
+        </figure>
+    {% endfor %}
+</div>
+
+
+<h2>By the numbers</h2>
+<h3>Custom measurements</h3>
+<p>
+    The measurements in this section are the starting point for what makes a custom bicycle <em>custom</em>. These 4 measurements are what is necessary to orient your touchpoints around the bicycle. From this starting place we can make educated decisions about the geometry of the bicycle in conjunction with the needs of the rider.
+</p>
+<img src="/images/fit-diagram.png" alt="diagram showing custom fit measurements in relation to frame" class="plain">
+<table summary="Custom fit numbers">
+    <tr>
+        <th>Span</th>
+        <th>Distance in mm</th>
+    </tr>
+    {% for fit in page.fit-numbers %}
+        <tr>
+            <td>{{fit.title}}</td>
+            <td>{{fit.number}}</td>
+        </tr>
+    {% endfor %}
+</table>
+<h3>
+    Frame Geometry
+</h3>
+<img src="/images/geometry-diagram.png" alt="Diagram to show the different spans on the bicyle" class="plain">
+<table summary="Custom fit numbers">
+    <tr>
+        <th>Span</th>
+        <th>Distance in mm</th>
+    </tr>
+    {% for item in page.frame-geometry %}
+    <tr>
+        <td>{{item.title}}</td>
+        <td>{{item.number}}</td>
+    </tr>
+    {% endfor %}
+</table>

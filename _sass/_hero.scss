@@ -12,6 +12,8 @@
     @include xs{
         display: grid;
         grid-template-rows: 1fr auto 1fr;
+    }
+    @include sm{
         margin-bottom: 3rem;
     }
     img{

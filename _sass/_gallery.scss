@@ -1,0 +1,18 @@
+/* 
+    Name: _gallery
+    Descr: Styles the main page gallery
+*/
+
+.gallery{
+    width: 120%;
+    margin-left: -10%;
+    figure{
+        margin-bottom: 3rem;
+        border-bottom: 2px solid var(--teal);
+        padding-bottom: 2rem;
+    }
+    figcaption{
+        margin-top:2rem;
+    }
+}
+

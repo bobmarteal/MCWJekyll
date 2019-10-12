@@ -8,3 +8,9 @@ collections:
   bikes:
     output: true
     permalink: /bikes/:path/
+
+defaults:
+  - scope:
+      type: "bikes"
+    values:
+      layout: "bike"
