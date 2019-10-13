@@ -5,7 +5,7 @@ jQuery(document).ready(function ($) {
         $(this.element).addClass('fadeIn');
         console.log('far out');
     }, {
-        offset: '50%'
+        offset: '40%'
     });
 
 });

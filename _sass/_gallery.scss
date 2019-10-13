@@ -9,10 +9,11 @@
     figure{
         margin-bottom: 3rem;
         border-bottom: 2px solid var(--teal);
-        padding-bottom: 2rem;
     }
     figcaption{
-        margin-top:2rem;
+        padding:2rem;
+        background: var(--light-gray);
+        border-radius: var(--border-radius)
     }
 }
 
