@@ -17,3 +17,13 @@
     }
 }
 
+.mini-gallery{
+    width: 120%;
+    margin-left: -10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    img{
+        flex: 0 0 30%;
+    }
+}
