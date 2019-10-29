@@ -13,4 +13,8 @@ img{
     &.plain{
         box-shadow: none;
     }
+    &.right{
+        margin-left: 1rem;
+        max-width: 60%;
+    }
 }
