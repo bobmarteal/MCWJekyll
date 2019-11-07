@@ -13,12 +13,11 @@ layout: default
 {{ content }}
 
 <h2>Gallery</h2>
-<div class="gallery">
+<div class="big-gallery">
     {% for item in page.gallery %}
-        <figure class="animated">
-            <img src="{{ item.imagepath }}" alt="{{ item.imagealt }}" class="gallery__image">
-            <figcaption class="gallery__caption">{{item.imagecaption}}</figcaption>
-        </figure>
+        <a href="{{ item.imagepath-full }}" class="{{ item.imageclass }} animated" title="{{ item.imagealt }}" caption="{{ item.imagecaption }}">
+            <img src="{{ item.imagepath-thumb }}" alt="{{ item.imagealt }}" >
+        </a>
     {% endfor %}
 </div>
 
