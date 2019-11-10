@@ -18,3 +18,20 @@ img{
         max-width: 60%;
     }
 }
+
+figure{
+    border-bottom: 4px solid var(--green);
+    padding-bottom: .5rem;  
+    margin-top: .25rem;
+    figcaption{
+        font-size: .75rem;
+    }
+    &.right{
+        margin-left: 1.5rem;
+        margin-right: 0;
+    }
+    &.left{
+        margin-right: 1.5rem;
+        margin-left: 0;
+    }
+}

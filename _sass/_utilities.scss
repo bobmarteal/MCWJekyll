@@ -9,3 +9,9 @@
 .right{
     float: right;
 }
+
+.fortyP{
+    @include sm{
+        max-width: 40%;
+    }
+}

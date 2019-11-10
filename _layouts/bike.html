@@ -23,36 +23,51 @@ layout: default
 
 
 <h2>Fit and geometry</h2>
-<h3>Custom measurements</h3>
 <p>
-    The measurements in this section are the starting point for what makes a custom bicycle <em>custom</em>. These 4 measurements are what is necessary to orient your touchpoints around the bicycle. From this starting place we can make educated decisions about the geometry of the bicycle in conjunction with the needs of the rider.
+    These measurements are the starting point for what makes a bicycle, <em>custom</em>. These 4 numbers establish your touchpoints around the bicycle. From this starting place we can make educated decisions about the geometry of the bicycle in conjunction with the needs of the rider.
 </p>
-<img src="/images/fit-diagram.png" alt="diagram showing custom fit measurements in relation to frame" class="plain">
-<table summary="Custom fit numbers" class="data">
-    <tr>
-        <th>Span</th>
-        <th>Distance in mm</th>
-    </tr>
-    {% for fit in page.fit-numbers %}
-        <tr>
-            <td>{{fit.title}}</td>
-            <td>{{fit.number}}</td>
-        </tr>
-    {% endfor %}
-</table>
-<h3>
-    Frame Geometry
-</h3>
-<img src="/images/geometry-diagram.png" alt="Diagram to show the different spans on the bicyle" class="plain">
-<table summary="Custom fit numbers" class="data">
-    <tr>
-        <th>Span</th>
-        <th>Distance in mm</th>
-    </tr>
-    {% for item in page.frame-geometry %}
-    <tr>
-        <td>{{item.title}}</td>
-        <td>{{item.number}}</td>
-    </tr>
-    {% endfor %}
-</table>
+<div class="pt">
+    <div>
+        <h3>Custom measurements</h3>
+        <table summary="Custom fit numbers" class="data">
+            <tr>
+                <th>Span</th>
+                <th>Distance in mm</th>
+            </tr>
+            {% for fit in page.fit-numbers %}
+                <tr>
+                    <td>{{fit.title}}</td>
+                    <td>{{fit.number}}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+    <img src="/images/fit-diagram.png" alt="diagram showing custom fit measurements in relation to frame" class="plain">
+</div>
+
+<div class="pt">
+    <div>
+        <h3>
+            Frame geometry
+        </h3>
+        <table summary="Custom fit numbers" class="data">
+            <tr>
+                <th>Span</th>
+                <th>Distance in mm</th>
+            </tr>
+            {% for item in page.frame-geometry %}
+            <tr>
+                <td>{{item.title}}</td>
+                <td>{{item.number}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+    <div>
+        <img src="/images/geometry-diagram.png" alt="Diagram to show the different spans on the bicyle" class="plain">
+    </div>
+</div>
+
+
+
+

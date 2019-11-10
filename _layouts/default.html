@@ -25,12 +25,43 @@
             {{ content }}
         </main>
         <footer>
+            <div class="contact">
+                <div>
+                <h2>
+                    Contact
+                </h2>
+                <p>
+                    A custom bicycle experience is very personal. Please reach out to me so we can start your journey towards your one true custom bicycle.
+                </p>  
+                </div>
+
+                <form name="contact" method="POST" data-netlify="true">
+                    <p>
+                        <label for="name">Your Name: <br /><input type="text" name="name" id="name" /></label>
+                    </p>
+                    <p>
+                        <label for="email">Your Email: <br /><input type="email" name="email" id="email" /></label>
+                    </p>
+                    <p>
+                        <label>Message: <br /><textarea name="message"></textarea></label>
+                    </p>
+                    <p>
+                        <button type="submit">Send</button>
+                    </p>
+                </form>
+            </div>
             <ul>
                 <li>
-                    <a href="mailto:martealcycleworks@gmail.com">Email to get in touch</a>
+                    <a href="mailto:martealcycleworks@gmail.com">Email Marteal Cycle Works</a>
                 </li>
                 <li>
                     <a href="https://www.instagram.com/martealcycleworks/">Follow MCW on Instagram</a>
+                </li>
+                <li>
+                    <a href="tel:1-607-227-1657">1-607-227-1657</a>
+                </li>
+                <li>
+                    Site by <a href="mailto: bobmarteal@gmail.com">Bob Marteal</a>
                 </li>
             </ul>
         </footer>
