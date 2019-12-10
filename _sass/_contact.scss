@@ -5,8 +5,9 @@
 
 .contact{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    padding: 2rem 4rem;
+    padding: 2rem;
     div:first-of-type{
         flex: 0 0 40%;
     }
@@ -25,5 +26,9 @@
     }
     button{
         width: 40%;
+    }
+    @include md{
+        flex-direction: row;
+        padding: 2rem;
     }
 }

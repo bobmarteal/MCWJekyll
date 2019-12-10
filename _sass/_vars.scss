@@ -20,6 +20,7 @@
 
     --light-gray: #f8f8f8;
     --white: #fff;
+    --black: #444;
 
     //fonts
     --serif: 'museo-slab', serif;
@@ -29,7 +30,7 @@
     --base-font-size: 28px;
     --base-line-height: 1.4;
 
-    --main-nav-size: calc(1.5 * (var(--base-font-size)));
+    --main-nav-size: calc(1.25 * (var(--base-font-size)));
 
     //font-weights
     --light-weight: 300;
