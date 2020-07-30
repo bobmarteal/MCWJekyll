@@ -1,0 +1,22 @@
+---
+layout: default
+title: Bikes
+---
+
+<h1>Bicycles</h1>
+<p>
+	Bicycle building is a very humbling and gratifying experience. I have more int the works that I can't wait to share. I hope you enjoy them.
+</p>
+
+{% for bike in site.bikes %}
+<div class="bikeIntroduction">
+  <h1 class="title">{{ bike.title }}</h1>
+<p>{{ bike.description }}</p>
+<div class="hero">
+	<img src="{{ bike.hero.imagepath }}" alt="{{ bike.hero.imagealt }}" />
+	<h1><span>{{ bike.hero.h1span}}</span>{{ bike.hero.h1 }}</h1>
+</div>
+<p> {{bike.introduction}}</p>
+<a href="{{bike.url}}" class="button centered">See {{bike.title}}</a>
+</div>
+{% endfor %}

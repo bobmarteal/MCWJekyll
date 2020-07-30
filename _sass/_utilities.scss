@@ -9,6 +9,10 @@
 .right{
     float: right;
 }
+.centered{
+  margin-left: 50%;
+    transform: translateX(-50%);
+}
 
 .fortyP{
     @include sm{
